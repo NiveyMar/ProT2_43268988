@@ -1,0 +1,94 @@
+body {
+    background-color: #f1f7ec;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+
+.parrafo {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}    
+
+/*.div1 {
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}*/
+
+header {
+    background-color: rgba(245, 249, 243, 0.984);
+    color: #f3e7e7;
+    text-align: center;
+    padding: 20px;
+    }
+section {
+    padding: 20px; /* espaciado para la sección de 20 pixeles */}
+footer {
+    background-color: #65e62e; /* Color de fondo del footer */
+    color: #f4f0f0;
+    padding: 20px 0; 
+    text-align: center;
+    }
+.footer-content {
+    max-width: 800px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+    text-align: center; 
+}
+nav {
+    background-color: #33b133;
+    padding: 30px;
+    }
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+nav ul li a {
+    color: #0a0a0a;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    }
+nav ul li a:hover {
+    background-color: #0e1410;
+    }
+    
+ img {
+        display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+        margin: 0 auto; /* Centrar las imágenes horizontalmente */
+        max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+        border: 3px solid #65e62e; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+        border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+        height: auto;
+}
+  
+.card {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.contacto {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+    text-align: center;
+}
+.carousel-inner {
+    display: contents;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
